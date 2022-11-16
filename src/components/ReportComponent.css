@@ -1,0 +1,38 @@
+.report-container{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.report-container>div{
+    flex: 1;
+    text-align: center;
+}
+
+.report-container>div:first-of-type{
+    border-right: 3px solid #dedede;
+}
+
+.report{
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.report.plus{
+    color: #2ccc71;
+}
+
+.report.minus{
+    color: red;
+}
+
+.color-expense{
+    color: red;
+}
+
+.color-income{
+    color: #2ccc71;
+}
